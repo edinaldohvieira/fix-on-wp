@@ -12,6 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Adiciona ou modifica recursos em uma instalação do WordPress
 
 == Description ==
+Adiciona ou modifica recursos em uma instalação do WordPress
+
+Este plugin foi desenvolvido como uma solução modulada onde o principal foco foi concentrar varios plugin em uma única solução, ao mesmo tempo que, permitisse atualizar cada módulo ou "add-in" sem ter que ficar instalando um montão de plugins.
 
 == Installation ==
 
