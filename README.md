@@ -1,10 +1,12 @@
 # fix-on-wp
+
 Adiciona ou modifica recursos em uma instalação do WordPress
 
-O que este plugin faz é nada mais que diponibilizar um diretorio de add-in ou pedaços de códigos que tem a função de adicionar ou modificar algo no wordpress.
+O que este plugin faz é nada mais que disponibilizar um diretório de "add-in" ou "trechos de códigos" que tem a função de adicionar ou modificar algo no WordPress.
 
-Este plugin surgiu da necessidade de poder centralizar em um só plugin todos os recursos necessários de uma certa instalação e evitar que sejam instalados diversos plugin diferente, portanto, centralizar em um só plugin as multiplas recursos. Por exemplo, ao invés de instalar um plugin para estoque e outro para clientes, em um só plugin poderia instalar dois add-in, um para cada função. Então, presume-se que este plugin é um centarlizador, ou um repositorio de add-ins.
+Este plugin surgiu da necessidade de poder centralizar em um só local todos os recursos necessários de uma certa instalação do WordPress e assim evitar que sejam instalados diversos plugin diferente, portanto, centralizar em um só plugin os múltiplos recursos necessário. Por exemplo, ao invés de instalar um plugin para estoque e outro para clientes e ainda outro para boletos..., em um só plugin poderia instalar todos em forma de add-ins,  um para cada função (houve um caso em que tive que desenvolver 21 plugins diferentes. Se estivesse usando esta técnica bastaria apenas um plugin contendo os 21 arquivos). Então, presume-se que este plugin é um centralizador, ou um repositório de "add-ins".
 
-Este plugin, por sí só não altera nada. Apenas prepara o ambiente para receber novoas funcionalidades.
+Este plugin, por si só não altera nada. Apenas prepara o ambiente para receber novos funcionalidades.
 
-Este plugin cria, dentro de sua estrutura, uma pasta de nome "addins". Dentro desta pasta terão vários diretorios. Toda vez que o wp é carregado, assim como ele lê o diretorio dos plugins tambem ele irá ler a pasta addins no diretorio deste plugin e consequentemente irá executar os arquivos .php contido dentro da pasta. Assim sendo, por exemplo, se tiver um codigo que disponibilize um cadastro de clientes, então, vai estar disponivel conforme as diretrizes ou trecho de codigo executado.
+Portanto, este plugin cria, dentro de sua estrutura, uma pasta de nome "addins". E dentro desta pasta terão vários diretórios. Toda vez que o WP é carregado, assim como ele lê o diretório dos plugins também irá ler a pasta addins no diretório deste plugin e consequentemente irá executar os arquivos "*.php" contido dentro da referida. Assim sendo, por exemplo, se tivéssemos um código que disponibilize um cadastro de clientes, então, vai estar disponível conforme as diretrizes ou trecho de código executado.
+
