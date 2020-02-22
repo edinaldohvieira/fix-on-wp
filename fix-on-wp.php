@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/edinaldohvieira
  * Text Domain:     fix-on-wp
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  * Referencia:      fix158235
  *
  * @package         Fix_On_Wp
